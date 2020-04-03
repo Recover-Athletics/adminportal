@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+.input-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input-bar-recover {
+    width: 100%;
+    padding: 20px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #3F51B5;
+    font-family: "Lato";
+    font-size: 20px;
+    color: #3F51B5;
+}
+
+.input-bar-recover:focus {
+    outline: 0;
+}
+
+.input-bar-recover::placeholder {
+    color: #3F51B5;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.Home-Page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-page-content {
+    padding-top: 350px;
+    font-family: 'Lato';
+    color: #283593;
+}
+
+.button-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-recover {
+    padding: 15px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #3F51B5;
+    border-radius: 15px;
+    color: #3F51B5;
+}
+
+.button-recover:hover {
+    background-color: #3F51B5;
+    color: white;
+    cursor: pointer;
+}
+
+.button-recover:focus {
+    outline: 0;
+}
+
+.closemodal {
+  color: #3F51B5;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
